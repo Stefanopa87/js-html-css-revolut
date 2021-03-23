@@ -2,11 +2,9 @@ function onButton(){
   // $('.hamburger-menu').addClass('active');
   console.log('sei sopra');
 
+  $('.hamburger-menu.active').removeClass('active');
+  $(this).next().addClass('active');
 
-      $('.hamburger-menu').each(function() {
-
-          $(this).addClass('active');
-      });
 
 }
 
